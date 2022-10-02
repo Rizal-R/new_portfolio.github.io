@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new_portfolio.github.io/static/css/main.510a08d7.chunk.css",
+    "main.css": "/new_portfolio.github.io/static/css/main.c52c2b93.chunk.css",
     "main.js": "/new_portfolio.github.io/static/js/main.308e7762.chunk.js",
     "main.js.map": "/new_portfolio.github.io/static/js/main.308e7762.chunk.js.map",
     "runtime-main.js": "/new_portfolio.github.io/static/js/runtime-main.1d2e362d.js",
@@ -10,7 +10,7 @@
     "static/js/3.8c8b67d0.chunk.js": "/new_portfolio.github.io/static/js/3.8c8b67d0.chunk.js",
     "static/js/3.8c8b67d0.chunk.js.map": "/new_portfolio.github.io/static/js/3.8c8b67d0.chunk.js.map",
     "index.html": "/new_portfolio.github.io/index.html",
-    "static/css/main.510a08d7.chunk.css.map": "/new_portfolio.github.io/static/css/main.510a08d7.chunk.css.map",
+    "static/css/main.c52c2b93.chunk.css.map": "/new_portfolio.github.io/static/css/main.c52c2b93.chunk.css.map",
     "static/js/2.715c6eae.chunk.js.LICENSE.txt": "/new_portfolio.github.io/static/js/2.715c6eae.chunk.js.LICENSE.txt",
     "static/media/App.less": "/new_portfolio.github.io/static/media/bg.9405fac2.png",
     "static/media/rizal6.e110020a.png": "/new_portfolio.github.io/static/media/rizal6.e110020a.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.1d2e362d.js",
     "static/js/2.715c6eae.chunk.js",
-    "static/css/main.510a08d7.chunk.css",
+    "static/css/main.c52c2b93.chunk.css",
     "static/js/main.308e7762.chunk.js"
   ]
 }
