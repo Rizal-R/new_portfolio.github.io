@@ -3,7 +3,7 @@ import './App.less';
 import { Layout, Anchor } from 'antd';
 import About from 'pages/About'
 import Contact from 'pages/Contact'
-import Portofolio from 'pages/Portofolio'
+// import Portofolio from 'pages/Portofolio'
 
 const { Header, Footer } = Layout;
 const { Link } = Anchor;
@@ -18,7 +18,7 @@ class App extends React.Component {
             <Anchor targetOffset="50" >
               <Link href="#Contact" title="Contact" />
               <Link href="#About" title="About" />
-              <Link href="#Portofolio" title="Portofolio" />
+              {/* <Link href="#Portofolio" title="Portofolio" /> */}
             </Anchor>
           </Header>
           <Contact />

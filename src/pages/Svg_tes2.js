@@ -12,7 +12,7 @@ const Svg_tes2 = (props) => (
             coblRule: "evenodd",
             clipRule: "evenodd",
         }}
-        viewBox="0 2500 19000 19000"
+        viewBox="0 2300 22000 19000"
         {...props}
     >
         <defs>

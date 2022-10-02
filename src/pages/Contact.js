@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Row, Col, Progress } from 'antd';
+import { Layout, Row, Col } from 'antd';
 import rizal from 'asset/rizal6.png';
 
 import { LinkedinFilled } from '@ant-design/icons';
