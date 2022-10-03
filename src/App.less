@@ -28,7 +28,9 @@
    background: #0606062e;
    border-radius: 25px;
    padding: 15px;
-   border: 4px dashed #fff;
+  //  border: 4px dashed #fff;
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 65px 0px 0px 15px;
  }
  section.bg-card{
   background-image: url("asset/bg.png");
@@ -38,11 +40,11 @@
 
  .site-layout-content {
   min-height: 280px;
-  padding: 24px;
+  // padding: 24px;
   border-radius: 20px;
   // border: 1px solid #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background: #a8a8a8;
+  // background: #a8a8a8;
   margin-bottom: 50px;
 
 }
@@ -254,12 +256,26 @@ padding: 20px;
 
 
 .pd-font-1{
-  padding-top: 30px;
-  padding-left: 50px;
-  padding-right: 20px;
+  padding: 30px;
 }
-
+.img-code{
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media only screen and (max-width: 600px) {
+.site-layout-content {
+  box-shadow: none;
+}
+.img-code{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-font{
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .textHeight{
     text-align: center;
 }
@@ -274,8 +290,10 @@ padding: 20px;
 
   .pd-font-1{
     padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
   }
   .font-1{
     padding-top: 0px;
@@ -331,6 +349,7 @@ padding: 20px;
 
 
 @media only screen and (min-width: 601px) {
+
     .show-mobile{
       display: none;
     }
@@ -381,6 +400,21 @@ color: #000;
   margin-left: auto;
   margin-right: auto;
 }
+
+#c{
+  animation: tes 4s ease-in-out infinite alternate;
+}
+#o{
+  animation: tes 3s ease-in-out infinite alternate;
+}
+#d{
+  animation: tes 2s ease-in-out infinite alternate;
+}
+#e{
+  animation: tes 3s ease-in-out infinite alternate;
+}
+
+
 
 @keyframes tes{
   from{
