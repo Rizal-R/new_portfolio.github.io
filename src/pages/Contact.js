@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Row, Col } from 'antd';
 import rizal from 'asset/rizal6.png';
-
+import SvgHai from './Svg_hai'
 import { LinkedinFilled } from '@ant-design/icons';
 const { Content } = Layout;
 
@@ -18,7 +18,9 @@ function Contact() {
 
             <Col xs={24} sm={24} md={24} lg={24} xl={10}>
               <div className='card-font pd-font-1'>
-                <div className="font-1">HY! I AM</div>
+                <div className="img-code">
+                  <SvgHai />
+                </div>
                 <div className='font-2'>RIZAL RUDIANTORO</div>
                 <div className="font-3" >FRONTEND DEVELOPER</div>
                 <br />

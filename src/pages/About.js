@@ -4,7 +4,7 @@ import { Layout, Card, Row, Col } from 'antd';
 // import { ReactComponent as Superman } from 'asset/vector.svg';
 import SvgTes from './Svg_tes';
 import SvgTes2 from './Svg_tes2';
-import SvgCode from './Svg_code'
+// import SvgCode from './Svg_code'
 
 const { Content } = Layout;
 function About() {
@@ -13,11 +13,11 @@ function About() {
     <>
 
       <Content id="About" className='responsive'>
-        <Row >
+        {/* <Row >
           <Col xs={24} sm={24} md={24} lg={24} xl={24} className="img-code">
             <SvgCode />
           </Col>
-        </Row>
+        </Row> */}
         <br />
         <div>
           <Row >
