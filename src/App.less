@@ -23,6 +23,7 @@
   background: #a8a8a8;
   padding: 35px;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
  .card-font{
    background: #fff;
@@ -46,6 +47,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   // background: #a8a8a8;
   margin-bottom: 50px;
+  background: #fff;
 
 }
 .ant-layout {
@@ -181,10 +183,11 @@ background: transparent;
   border-radius: 50%;
   width: 45px;
   height: 45px;
+ 
   // padding: 13px;
   // padding-left: 15px;
   // padding-top: 9px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
 }
 .instagram{
   background: #f09433; 
@@ -201,9 +204,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 }
 .linked{
   background: #1890ff;
-  cursor: pointer;
   float: right;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .mail{
   background: #d23585;
@@ -238,12 +240,12 @@ padding: 20px;
   font-size: 42px;
 }
 .font-2{
-  color: #000000b0;
+  color: #878787;
   font-size: 42px;
 }
 .font-3{
   padding-top: 20px;
-  color: #ffa115;
+  color: #db3500;
   font-size: 42px;
   font-weight: 700;
 }
@@ -259,7 +261,7 @@ padding: 20px;
   padding: 30px;
 }
 .img-code{
-  max-width: 50%;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -275,6 +277,7 @@ padding: 20px;
 .card-font{
   margin-top: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 65px 0px 0px 0px;
 }
 .textHeight{
     text-align: center;
@@ -416,13 +419,11 @@ color: #000;
 
 
 #h{
-  animation: tes 4s ease-in-out infinite alternate;
-}
-#y{
-  animation: tes 3s ease-in-out infinite alternate;
-}
-#i{
   animation: tes 2s ease-in-out infinite alternate;
+}
+
+#i{
+  animation: tes 3s ease-in-out infinite alternate;
 }
 #a{
   animation: tes 4s ease-in-out infinite alternate;
@@ -435,10 +436,10 @@ color: #000;
 
 @keyframes tes{
   from{
-      transform: rotateZ(-5deg);
+      transform: rotateX(-3deg);
   }
   to{
-      transform: rotateZ(5deg);
+      transform: rotateZ(3deg);
   }
 }
 

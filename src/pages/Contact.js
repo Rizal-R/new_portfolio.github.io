@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Row, Col } from 'antd';
-import rizal from 'asset/rizal6.png';
+import rizal from 'asset/rizal9.png';
 import SvgHai from './Svg_hai'
 import { LinkedinFilled } from '@ant-design/icons';
 const { Content } = Layout;
@@ -51,9 +51,11 @@ function Contact() {
                   </div>
                 </Col> */}
                   <Col span={24}>
-                    <div className="icon linked">
-                      <a href="https://www.linkedin.com/in/rizal-rudiantoro-27595b141" rel="noreferrer noopener" target="_blank"> <LinkedinFilled style={{ color: "#fff", padding: 12 }} /></a>
-                    </div>
+                    <a href="https://www.linkedin.com/in/rizal-rudiantoro-27595b141" rel="noreferrer noopener" target="_blank">
+                      <div className="icon linked">
+                        <LinkedinFilled style={{ color: "#fff", padding: 12 }} />
+                      </div>
+                    </a>
                   </Col>
                 </Row>
               </div>
