@@ -4,6 +4,7 @@ import { Layout, Card, Row, Col } from 'antd';
 // import { ReactComponent as Superman } from 'asset/vector.svg';
 import SvgTes from './Svg_tes';
 import SvgTes2 from './Svg_tes2';
+import history from 'asset/history.png';
 // import SvgCode from './Svg_code'
 
 const { Content } = Layout;
@@ -21,6 +22,15 @@ function About() {
         <br />
         <div>
           <Row >
+            <Col xs={24} sm={24} md={24} lg={24} xl={24}>
+              <div className="textHeight1">
+                History
+              </div>
+              <img src={history} className="img" alt="Img" />
+            </Col>
+
+          </Row>
+          <Row style={{ paddingTop: 100 }}>
             <Col xs={24} sm={24} md={24} lg={24} xl={14}>
               <Card className="card-about" style={{ width: "100%" }}>
                 <div className="textHeight">
