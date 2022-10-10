@@ -4,7 +4,11 @@ import { Layout, Card, Row, Col } from 'antd';
 // import { ReactComponent as Superman } from 'asset/vector.svg';
 import SvgTes from './Svg_tes';
 import SvgTes2 from './Svg_tes2';
-import history from 'asset/history.png';
+import dnet from 'asset/dnet.png';
+import sma from 'asset/sma.png';
+import kuliah from 'asset/kuliah.png';
+import triv from 'asset/triv.png';
+import freelance from 'asset/freelance.png';
 // import SvgCode from './Svg_code'
 
 const { Content } = Layout;
@@ -12,25 +16,82 @@ function About() {
 
   return (
     <>
-
       <Content id="About" className='responsive'>
-        {/* <Row >
-          <Col xs={24} sm={24} md={24} lg={24} xl={24} className="img-code">
-            <SvgCode />
-          </Col>
-        </Row> */}
         <br />
         <div>
-          <Row >
-            <Col xs={24} sm={24} md={24} lg={24} xl={24}>
+          <Row justify='center'>
+            <Col xs={24} >
               <div className="textHeight1">
                 History
               </div>
-              <img src={history} className="img" alt="Img" />
-            </Col>
 
+            </Col>
+            <Col xs={12} sm={4} md={4} lg={4} xl={4} >
+              <img src={sma} className="img-list" alt="Img" id="logo" />
+              <div className='text-mobile-history'>
+                2009-2013
+              </div>
+              <div className='text-mobile-history'>
+                <b> Senior High School 1 Karangan</b>
+              </div>
+              <div className='text-mobile-history'>
+                IPA
+              </div>
+              <div className='text-mobile-history'>
+                Trenggalek
+              </div>
+            </Col>
+            <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+              <img src={kuliah} className="img-list" alt="Img" id="logo" />
+              <div className='text-mobile-history'>
+                2013-2019
+              </div>
+              <div className='text-mobile-history'>
+                <b>Brawijaya University</b>
+              </div>
+              <div className='text-mobile-history'>
+                Informatics Engineering
+              </div>
+              <div className='text-mobile-history'>
+                Malang
+              </div>
+            </Col>
+            <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+              <img src={freelance} className="img-list" alt="Img" id="logo" />
+              <div className='text-mobile-history'>
+                2016-present
+              </div>
+              <div className='text-mobile-history'><b>Freelance</b></div>
+              <div className='text-mobile-history'>
+                Work From Anywhere
+              </div>
+            </Col>
+            <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+              <img src={dnet} className="img-list" alt="Img" id="logo" />
+              <div className='text-mobile-history'>
+                Nov 2020-Jun 2022
+              </div>
+              <div className='text-mobile-history'>
+                <b>Frontend</b>
+              </div>
+              <div className='text-mobile-history'>
+                Surabaya
+              </div>
+            </Col>
+            <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+              <img src={triv} className="img-list" alt="Img" id="logo" />
+              <div className='text-mobile-history'>
+                Jun 2022-Present
+              </div>
+              <div className='text-mobile-history'>
+                <b>Full Stack</b>
+              </div>
+              <div className='text-mobile-history'>
+                Surabaya
+              </div>
+            </Col>
           </Row>
-          <Row style={{ paddingTop: 100 }}>
+          {/* <Row style={{ paddingTop: 100 }}>
             <Col xs={24} sm={24} md={24} lg={24} xl={14}>
               <Card className="card-about" style={{ width: "100%" }}>
                 <div className="textHeight">
@@ -70,7 +131,7 @@ function About() {
                 </div>
               </Card>
             </Col>
-          </Row>
+          </Row> */}
 
         </div>
       </Content>
