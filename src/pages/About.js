@@ -4,11 +4,11 @@ import { Layout, Card, Row, Col } from 'antd';
 // import { ReactComponent as Superman } from 'asset/vector.svg';
 import SvgTes from './Svg_tes';
 import SvgTes2 from './Svg_tes2';
-import dnet from 'asset/dnet.png';
-import sma from 'asset/sma.png';
-import kuliah from 'asset/kuliah.png';
-import triv from 'asset/triv.png';
-import freelance from 'asset/freelance.png';
+import dnet from 'asset/dnet1.png';
+import sma from 'asset/sma1.png';
+import kuliah from 'asset/kuliah1.png';
+import triv from 'asset/triv1.png';
+import freelance from 'asset/freelance1.png';
 // import SvgCode from './Svg_code'
 
 const { Content } = Layout;
@@ -59,7 +59,7 @@ function About() {
             <Col xs={12} sm={4} md={4} lg={4} xl={4}>
               <img src={freelance} className="img-list" alt="Img" id="logo" />
               <div className='text-mobile-history'>
-                2016-present
+                2016-Present
               </div>
               <div className='text-mobile-history'><b>Freelance</b></div>
               <div className='text-mobile-history'>
@@ -72,6 +72,9 @@ function About() {
                 Nov 2020-Jun 2022
               </div>
               <div className='text-mobile-history'>
+                <b>D~Net</b>
+              </div>
+              <div className='text-mobile-history'>
                 <b>Frontend</b>
               </div>
               <div className='text-mobile-history'>
@@ -82,6 +85,9 @@ function About() {
               <img src={triv} className="img-list" alt="Img" id="logo" />
               <div className='text-mobile-history'>
                 Jun 2022-Present
+              </div>
+              <div className='text-mobile-history'>
+                <b>TRIV Indonesia</b>
               </div>
               <div className='text-mobile-history'>
                 <b>Full Stack</b>
