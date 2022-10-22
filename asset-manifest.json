@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/new_portfolio.github.io/static/css/main.bb113371.chunk.css",
-    "main.js": "/new_portfolio.github.io/static/js/main.2f5a3982.chunk.js",
-    "main.js.map": "/new_portfolio.github.io/static/js/main.2f5a3982.chunk.js.map",
+    "main.css": "/new_portfolio.github.io/static/css/main.c38cb361.chunk.css",
+    "main.js": "/new_portfolio.github.io/static/js/main.558ad441.chunk.js",
+    "main.js.map": "/new_portfolio.github.io/static/js/main.558ad441.chunk.js.map",
     "runtime-main.js": "/new_portfolio.github.io/static/js/runtime-main.20cee120.js",
     "runtime-main.js.map": "/new_portfolio.github.io/static/js/runtime-main.20cee120.js.map",
-    "static/js/2.27a87563.chunk.js": "/new_portfolio.github.io/static/js/2.27a87563.chunk.js",
-    "static/js/2.27a87563.chunk.js.map": "/new_portfolio.github.io/static/js/2.27a87563.chunk.js.map",
+    "static/js/2.82c2b3a1.chunk.js": "/new_portfolio.github.io/static/js/2.82c2b3a1.chunk.js",
+    "static/js/2.82c2b3a1.chunk.js.map": "/new_portfolio.github.io/static/js/2.82c2b3a1.chunk.js.map",
     "static/js/3.d1df26ce.chunk.js": "/new_portfolio.github.io/static/js/3.d1df26ce.chunk.js",
     "static/js/3.d1df26ce.chunk.js.map": "/new_portfolio.github.io/static/js/3.d1df26ce.chunk.js.map",
     "index.html": "/new_portfolio.github.io/index.html",
-    "static/css/main.bb113371.chunk.css.map": "/new_portfolio.github.io/static/css/main.bb113371.chunk.css.map",
-    "static/js/2.27a87563.chunk.js.LICENSE.txt": "/new_portfolio.github.io/static/js/2.27a87563.chunk.js.LICENSE.txt",
-    "static/media/App.less": "/new_portfolio.github.io/static/media/bg.9405fac2.png",
-    "static/media/dnet1.bd1e28a9.png": "/new_portfolio.github.io/static/media/dnet1.bd1e28a9.png",
-    "static/media/freelance1.a80e5c5e.png": "/new_portfolio.github.io/static/media/freelance1.a80e5c5e.png",
-    "static/media/kuliah1.74e87431.png": "/new_portfolio.github.io/static/media/kuliah1.74e87431.png",
-    "static/media/rizal9.3e3a6859.png": "/new_portfolio.github.io/static/media/rizal9.3e3a6859.png",
-    "static/media/sma1.f0200e64.png": "/new_portfolio.github.io/static/media/sma1.f0200e64.png",
-    "static/media/triv1.e2094fb1.png": "/new_portfolio.github.io/static/media/triv1.e2094fb1.png"
+    "static/css/main.c38cb361.chunk.css.map": "/new_portfolio.github.io/static/css/main.c38cb361.chunk.css.map",
+    "static/js/2.82c2b3a1.chunk.js.LICENSE.txt": "/new_portfolio.github.io/static/js/2.82c2b3a1.chunk.js.LICENSE.txt",
+    "static/media/App.less": "/new_portfolio.github.io/static/media/bg-card.aebad124.png",
+    "static/media/dnet1.4044d38f.png": "/new_portfolio.github.io/static/media/dnet1.4044d38f.png",
+    "static/media/experience.74683504.png": "/new_portfolio.github.io/static/media/experience.74683504.png",
+    "static/media/freelance1.1704d406.png": "/new_portfolio.github.io/static/media/freelance1.1704d406.png",
+    "static/media/kuliah1.eefdc745.png": "/new_portfolio.github.io/static/media/kuliah1.eefdc745.png",
+    "static/media/rizal9.c2195239.png": "/new_portfolio.github.io/static/media/rizal9.c2195239.png",
+    "static/media/sma1.7fbd254a.png": "/new_portfolio.github.io/static/media/sma1.7fbd254a.png",
+    "static/media/teknologi.b19b6236.png": "/new_portfolio.github.io/static/media/teknologi.b19b6236.png",
+    "static/media/triv1.583f3844.png": "/new_portfolio.github.io/static/media/triv1.583f3844.png"
   },
   "entrypoints": [
     "static/js/runtime-main.20cee120.js",
-    "static/js/2.27a87563.chunk.js",
-    "static/css/main.bb113371.chunk.css",
-    "static/js/main.2f5a3982.chunk.js"
+    "static/js/2.82c2b3a1.chunk.js",
+    "static/css/main.c38cb361.chunk.css",
+    "static/js/main.558ad441.chunk.js"
   ]
 }
