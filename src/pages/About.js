@@ -1,15 +1,14 @@
 import React from 'react';
-import { Layout, Card, Row, Col } from 'antd';
-// import testing3 from 'asset/Untitled-13.svg';
-// import { ReactComponent as Superman } from 'asset/vector.svg';
-import SvgTes from './Svg_tes';
-import SvgTes2 from './Svg_tes2';
+import { Layout, Row, Col } from 'antd';
+
 import dnet from 'asset/dnet1.png';
 import sma from 'asset/sma1.png';
 import kuliah from 'asset/kuliah1.png';
 import triv from 'asset/triv1.png';
 import freelance from 'asset/freelance1.png';
-// import SvgCode from './Svg_code'
+import experience from 'asset/experience.png';
+import teknologi from 'asset/teknologi.png';
+
 
 const { Content } = Layout;
 function About() {
@@ -97,51 +96,22 @@ function About() {
               </div>
             </Col>
           </Row>
-          {/* <Row style={{ paddingTop: 100 }}>
-            <Col xs={24} sm={24} md={24} lg={24} xl={14}>
-              <Card className="card-about" style={{ width: "100%" }}>
-                <div className="textHeight">
-                  Developer
-                </div>
-                <br />
-                <SvgTes2 className="show-mobile" />
-                <div className="card-list-item">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                </div>
-              </Card>
-
-            </Col>
-            <Col xs={24} sm={24} md={24} lg={24} xl={10}>
-              <Card className="card-about" style={{ width: "100%" }}>
-                <SvgTes2 className="hide-mobile" />
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={24} sm={24} md={24} lg={24} xl={10}>
-              <Card className="card-about" style={{ width: "100%" }}>
-                <SvgTes className="hide-mobile" />
-              </Card>
-            </Col>
-            <Col xs={24} sm={24} md={24} lg={24} xl={14}>
-              <Card className="card-about" style={{ width: "100%" }}>
-                <div className="textHeight">
-                  Freelance
-                </div>
-                <br />
-                <SvgTes className="show-mobile" />
-                <div className="card-list-item" style={{ background: "rgb(253 147 112)" }}>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                </div>
-              </Card>
-            </Col>
-          </Row> */}
-
         </div>
-      </Content>
+        <Row justify='center' style={{ paddingTop: 70 }}>
+          <div className='textHeight1' style={{ paddingBottom: 30 }}>Experience</div>
+          <Col xs={24} sm={24} md={24} lg={24} xl={24} style={{ paddingBottom: 20 }} >
+            <img src={teknologi} className="img-experience" alt="Img" />
+          </Col>
 
+          <Col xs={24} sm={24} md={24} lg={24} xl={24} >
+            <img src={experience} className="img-experience" alt="Img" />
+          </Col>
+
+        </Row>
+      </Content>
+      <br />
+      <br />
+      <br />
     </>
   )
 }

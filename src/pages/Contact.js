@@ -9,10 +9,13 @@ function Contact() {
 
   return (
     <>
+      <Col xs={24} sm={24} md={24} lg={24} xl={14} className='show-mobile'>
+        <img className="img" src={rizal} alt="Img" />
+      </Col>
       <Content id="Contact" className="bg-1 responsive">
         <div className="site-layout-content ">
           <Row >
-            <Col xs={24} sm={24} md={24} lg={24} xl={14}>
+            <Col xs={24} sm={24} md={24} lg={24} xl={14} className='hide-mobile'>
               <img className="img" src={rizal} alt="Img" />
             </Col>
 
