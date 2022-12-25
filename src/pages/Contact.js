@@ -28,9 +28,9 @@ function Contact() {
                 <div className="font-3" >FRONTEND DEVELOPER</div>
                 <br />
                 <div className=' font-1-1'>
-                  <div>My name is Rizal and I was born in Trenggalek.</div>
-                  <div>I have never been married and are Muslim.</div>
-                  <div>I is a person who likes to pursue information technology especially in the field of Artificial intelligence (AI) and
+                  <div>My name is Rizal.</div>
+                  <div>I'm singgle and are Muslim.</div>
+                  <div>I'm a person who likes to pursue information technology especially in the field of Artificial intelligence (AI) and
                     also often implement in a programming language.
                   </div>
                 </div>
